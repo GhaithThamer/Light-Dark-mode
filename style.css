@@ -56,6 +56,7 @@ h2 {
 
 /* Navigation */
 nav {
+    
   z-index: 10;
   position: fixed;
   font-family: Oswald, sans-serif;
@@ -63,7 +64,7 @@ nav {
   letter-spacing: 3px;
   padding: 25px;
   width: 100vw;
-  background: rgb(255 255 255 / 50%);
+  background: rgba(248, 244, 2, 0.5);
 }
 
 a {
@@ -185,6 +186,7 @@ p {
 
 /* Dark Mode Toggle */
 .theme-switch-wrapper {
+    background-color: green;
   display: flex;
   align-items: center;
   z-index: 100;
